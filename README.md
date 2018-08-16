@@ -20,7 +20,7 @@
   - run
     `docker run -d 80:5000 --name web web`
   - tag
-    `docker tag web <YOUR DOCKER HUB ID>/web`
+    `docker tag web <YOUR DOCKER HUB ID>/web:release`
   - push
     `docker push <YOUR DOCKER HUB ID>/web`
 
