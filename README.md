@@ -12,7 +12,9 @@
 ---------------------------
 ### run local test build and execution for your application
   - build
-    `docker-compose build`
+    ```
+    docker-compose build
+    ```
   - service up : this command changes newly genereated image
     `docker-compose up -d`
 
