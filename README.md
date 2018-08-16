@@ -5,7 +5,7 @@
   - docker should be installed on the deployment machine(http://www.docker.com)
   - aws cli (https://aws.amazon.com/cli/)
   - docker hub account / repository / login
-    `docker login`
+  `docker login`
   - (optional) `docker-compose` to test application on local
 
 ### run local test for your application
@@ -16,7 +16,7 @@
 
 ### build steps for local or manual deployment and push to the repository
   - build
-    `docker build -t web .`
+  `docker build -t web .`
   - run
     `docker run -d 80:5000 --name web web`
   - tag

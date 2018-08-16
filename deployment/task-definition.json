@@ -7,7 +7,7 @@
         "logConfiguration": {
           "logDriver": "awslogs",
           "options": {
-            "awslogs-group": "/ecs-test/web",
+            "awslogs-group": "/ecs-web/web",
             "awslogs-region": "ap-southeast-2",
             "awslogs-stream-prefix": "ecs"
           }
@@ -22,7 +22,7 @@
         "cpu": 256,
         "memoryReservation": 512,
         "volumesFrom": [],
-        "image": "<YOUR ECR REGISTRY>/gitlab-ecs:release",
+        "image": "<YOUR ECR REGISTRY>/ecs:release",
         "name": "web"
       }
     ]
